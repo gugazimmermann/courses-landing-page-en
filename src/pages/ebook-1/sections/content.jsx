@@ -8,27 +8,27 @@ export default function Content() {
         <div className='p-4 max-w-5xl sm:w-1/2'>
           <div className='text-center'>
             <h1 className='text-3xl font-bold text-orange-600'>
-              Sobre o Conteúdo
+              About the Content
             </h1>
             <Bar />
           </div>
           <p className='mt-4 leading-6 tracking-wide'>
-            O ebook é projetado para ser um tutorial que levará você,{' '}
-            <span className='font-semibold'>passo a passo</span> e de forma
-            prática, através de cada fase do desenvolvimento de uma aplicação
-            web. Começando com conceitos básicos e avançando para técnicas mais
-            complexas, os objetivos foram estabelecidos para serem realistas e
-            alcançáveis, mesmo para quem está{' '}
-            <span className='font-semibold'>começando do zero</span>.
+            The ebook is designed to be a tutorial that will take you,{' '}
+            <span className='font-semibold'>step by step</span> and in a
+            practical way, through each phase of the development of a web
+            application. Starting with basic concepts and advancing to more
+            complex techniques, the goals were set to be realistic and
+            achievable, even for those{' '}
+            <span className='font-semibold'>starting from scratch.</span>.
           </p>
           <p className='mt-4 leading-6 tracking-wide'>
-            Ao final do curso, você terá adquirido habilidades em{' '}
-            <span className='font-semibold'>React, TypeScript e Jest</span>,
-            além de ter desenvolvido uma aplicação web completa com
-            funcionalidades de autenticação e testes unitários cobrindo 100% do
-            código. O projeto final, com o código no GitHub e rodando na web,
-            poderá ser utilizado como{' '}
-            <span className='font-semibold'>portfólio</span> de seu aprendizado.
+            By the end of the course, you will have acquired skills in{' '}
+            <span className='font-semibold'>React, TypeScript and Jest</span>,
+            in addition to having developed a complete web application with
+            authentication features and unit tests covering 100% of the code.
+            The final project, with the code on GitHub and running on the web,
+            can be used as a <span className='font-semibold'>portfolio</span> of
+            your learning.
           </p>
         </div>
         <div className='p-2 sm:hidden'>

@@ -19,24 +19,24 @@ export default function Bonus() {
       <div className='max-w-4xl mx-auto'>
         <div className='text-center'>
           <h1 className='text-3xl font-semibold tracking-wide'>
-            Módulos Bônus
+          Bonus
           </h1>
           <Bar dark={true} />
         </div>
         <div className='p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mt-4'>
           <Module
             title='LinkedIn'
-            content='Aprenda como criar um perfil profissional para se destacar, atrair recrutadores e receber ofertas de emprego do mundo todo.'
+            content='Learn how to create a professional profile to stand out, attract recruiters, and receive job offers from all over the world'
             icon={<LinkedinIcon />}
           />
           <Module
             title='README'
-            content='Seu GitHub é uma vitrine onde os recrutadores podem ver seus projetos, tecnologias que utiliza e seus códigos. Um README correto é essencial.'
+            content='Your GitHub is a showcase where recruiters can see your projects, technologies you use, and your codes. A correct README is essential'
             icon={<DocIcon />}
           />
           <Module
-            title='Controle de Versões'
-            content='Entenda como funciona o controle de versões, a diferença entre os sistemas mais utilizados e os principais comandos do Git.'
+            title='Version Control'
+            content='Understand how version control works, the difference between the most used systems, and the main Git commands.'
             icon={<GitIcon />}
           />
         </div>

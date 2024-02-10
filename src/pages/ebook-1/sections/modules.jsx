@@ -12,52 +12,51 @@ import {
 
 const modules = [
   {
-    title: '1 - Tecnologias',
+    title: '1 - Technologies',
     icon: <TechIcon />,
     content:
-      'Conheça as principais tecnologias e ferramentas utilizadas no desenvolvimento web, e sobre o dia a dia de uma empresa de tecnologia.',
+      'Learn about the main technologies and tools used in web development, and about the day-to-day of a technology company.',
   },
   {
-    title: '2 - A Aplicação',
+    title: '2 - The Application',
     icon: <CodeIcon />,
     content:
-      'Configure o ambiente de desenvolvimento, entenda sobre qualidade de código, Git / GitHub e como hospedar a aplicação.',
+      'Set up the development environment, understand about code quality, Git / GitHub, and how to host the application.',
   },
   {
-    title: '3 - Componentes',
+    title: '3 - Components',
     icon: <ComponentsIcon />,
     content:
-      'Aprenda a criar componentes reutilizáveis de fácil manutenção, entenda como realizar corretamente os Commits e proteção contra ataques.',
+      'Learn to create reusable components that are easy to maintain, understand how to correctly make Commits and protect against attacks.',
   },
   {
     title: '4 - Backend',
     icon: <ServerIcon />,
     content:
-      'Crie um backend para ser utilizado com a aplicação, entenda sobre interfaces e variáveis de ambiente.',
+      'Create a backend to be used with the application, understand about interfaces and environment variables.',
   },
   {
-    title: '5 - Autenticação',
+    title: '5 - Authentication',
     icon: <ApiIcon />,
-    content:
-      'Aprenda sobre Services, consultas em API e se aprofunde no React Router.',
+    content: 'Learn about Services, API queries, and delve into React Router.',
   },
   {
-    title: '6 - Testes Unitários',
+    title: '6 - Unit Tests',
     icon: <AlertIcon />,
     content:
-      'Entenda a importancia e como realizar testes unitários utilizando o Jest, force a qualidade do código usando Coverage e Husky.',
+      'Understand the importance and how to conduct unit tests using Jest, enforce code quality using Coverage and Husky.',
   },
   {
-    title: '7 - Formulários',
+    title: '7 - Forms',
     icon: <FormIcon />,
     content:
-      'Aprenda o flúxo da Autenticação por inteiro, separe a área pública da restrita e entenda como utilizar utilitários de testes.',
+      'Learn the entire Authentication flow, separate the public area from the restricted one, and understand how to use testing utilities.',
   },
   {
-    title: '8 - Dados do Usuário',
+    title: '8 - User Data',
     icon: <UserIcon />,
     content:
-      'Entenda como funciona o State e Context no React, permita que os usuários alterem seus dados e senha.',
+      'Understand how State and Context work in React, allow users to change their data and password.',
   },
 ];
 
@@ -81,16 +80,21 @@ export default function Modules() {
       <div className='container mx-auto'>
         <div className='text-center mb-4'>
           <h2 className='font-semibold text-2xl text-orange-400'>
-            Do Zero ao Profissional:
+            Zero to Professional:
           </h2>
           <h1 className='font-bold text-3xl text-slate-50'>
-            Autenticação com <br /> React / TypeScript e Jest
+            Authentication with <br /> React / TypeScript and Jest
           </h1>
           <Bar light={true} />
         </div>
         <div className='p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {modules.map((m) => (
-            <Module key={m.title} title={m.title} content={m.content} icon={m.icon} />
+            <Module
+              key={m.title}
+              title={m.title}
+              content={m.content}
+              icon={m.icon}
+            />
           ))}
         </div>
       </div>

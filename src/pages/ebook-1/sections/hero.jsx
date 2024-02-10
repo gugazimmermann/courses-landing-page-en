@@ -17,22 +17,22 @@ export default function Hero() {
         </div>
         <div className='text-center pt-8 sm:w-2/3 sm:px-8'>
           <h2 className='font-semibold text-orange-600 text-2xl md:text-3xl sm:mb-2'>
-            Do Zero ao Profissional:
+            Zero to Professional:
           </h2>
           <h1 className='leading-snug font-bold text-3xl md:text-4xl'>
-            Autenticação com
+            Authentication with
             <br />
-            React / TypeScript e Jest
+            React / TypeScript and Jest
           </h1>
           <p className='mt-4 leading-6 tracking-wide'>
-            Aprenda React utilizando TypeScript, ferramentas de controle de
-            qualidade, boas práticas, entendendo como funciona o dia a dia em um
-            ambiente de desenvolvimento com Agile, e muitas formas de testes
-            utilizando Jest.
+            Learn React using TypeScript, quality control tools, best practices,
+            understanding the day-to-day in an Agile development environment,
+            and many forms of testing using Jest.
           </p>
           <p className='text-center font-semibold mt-4 mb-2'>
-            Cupom: <span className='text-orange-600 font-bold text-lg'>REACT25</span> - de R$
-            97,00 por R$ 72,75
+            Cupom:{' '}
+            <span className='text-orange-600 font-bold text-lg'>REACT25</span> -
+            de R$ 97,00 por R$ 72,75
           </p>
           <div className='flex justify-center'>
             <BuyNowButton size='auto' />

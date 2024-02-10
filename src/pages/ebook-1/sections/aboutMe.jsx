@@ -5,7 +5,7 @@ export default function AboutMe() {
     <section className='sm:bg-slate-100 sm:bg-opacity-75 sm:p-4'>
       <div className='sm:mx-auto sm:max-w-3xl lg:max-w-5xl'>
         <div className='relative z-20 w-full sm:flex sm:items-center'>
-        <div className='absolute w-full bg-slate-900 -z-10 sm:h-96 sm:rounded-2xl sm:shadow-md' />
+          <div className='absolute w-full bg-slate-900 -z-10 sm:h-96 sm:rounded-2xl sm:shadow-md' />
           <div className='w-full p-4 bg-slate-900 sm:flex sm:items-center sm:rounded-2xl sm:bg-transparent lg:px-12 sm:justify-evenly'>
             <Image
               src='/images/profile.webp'
@@ -25,12 +25,11 @@ export default function AboutMe() {
                 </h2>
               </div>
               <p className='my-4 leading-relaxed text-slate-100'>
-                Com mais de 20 anos de experiência na área de desenvolvimento de
-                sistemas, minha jornada inclui trabalhar em projetos
-                internacionais, superando desafios no desenvolvimento de
-                software e lidando com uma variedade de tecnologias. Me
-                especializei em Node.js, React e AWS (certificado como
-                Developer).
+                With over 20 years of experience in the field of systems
+                development, my journey includes working on international
+                projects, overcoming challenges in software development, and
+                dealing with a variety of technologies. I specialized in
+                Node.js, React, and AWS (certified as Developer).
               </p>
               <a
                 className='mt-4 leading-relaxed text-slate-100 hover:underline hover:text-orange-400'

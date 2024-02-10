@@ -60,9 +60,7 @@ export default function Content() {
     return (
       <div className='flex items-center pt-4'>
         <EmailIcon />
-        <p className='mx-2 font-bold'>
-          Email enviado, em breve entrarei em contato!
-        </p>
+        <p className='mx-2 font-bold'>Email sent, I will be in touch soon!</p>
         <button type='button' onClick={() => handleBack()}>
           <BackIcon />
         </button>
@@ -75,7 +73,7 @@ export default function Content() {
       <div className='flex items-center pt-4'>
         <ErrorIcon />
         <p className='mx-2 font-bold text-red-500'>
-          Ocorreu um erro, tente novamente
+          An error occurred, please try again
         </p>
         <button type='button' onClick={() => handleBack()}>
           <BackIcon />
@@ -90,22 +88,22 @@ export default function Content() {
         <div className='w-full lg:w-1/2'>
           <div className='text-center sm:text-left'>
             <h1 className='text-3xl font-semibold tracking-wide'>
-              Entre em contato
+            Get in Touch
             </h1>
             <Bar dark={true} />
           </div>
           <div className='mt-4 space-y-4'>
             <p className='flex items-center'>
               <QuestionIcon />
-              <span className='mx-2'>Tire suas dúvidas</span>
+              <span className='mx-2'>Ask your questions</span>
             </p>
             <p className='flex items-center'>
               <ExclamationIcon />
-              <span className='mx-2'>Informações sobre próximos cursos</span>
+              <span className='mx-2'>Information about upcoming courses</span>
             </p>
             <p className='flex items-center'>
               <ChatIcon />
-              <span className='mx-2'>Marcar uma conversa</span>
+              <span className='mx-2'>Schedule a conversation</span>
             </p>
           </div>
           {loading ? (
@@ -127,14 +125,14 @@ export default function Content() {
                   id='email'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder='Deixe seu email'
+                  placeholder='Your email'
                   className='flex-1 h-10 px-4 py-2 m-1 placeholder-slate-500 bg-transparent border-none appearance-none focus:outline-none focus:placeholder-transparent focus:ring-0'
                 />
                 <button
                   type='submit'
                   className='px-4 py-2 m-1 text-white transition-colors duration-300 transform bg-orange-600 rounded-md hover:bg-orange-500 focus:outline-none focus:bg-orange-500'
                 >
-                  Enviar
+                  Submit
                 </button>
               </form>
             </div>
