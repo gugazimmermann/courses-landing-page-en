@@ -1,0 +1,43 @@
+{
+  "api": {
+    "landingPageContactEN": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "landingPageContactEN"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "landingPageContactEN": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_landingPageContactEN_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "landingPageContactEN"
+        }
+      ]
+    },
+    "AMPLIFY_function_landingPageContactEN_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "landingPageContactEN"
+        }
+      ]
+    }
+  }
+}
