@@ -1,7 +1,7 @@
 {
-  "name": "Autenticação com React / TypeScript e Jest",
-  "short_name": "Autenticação com React / TypeScript e Jest",
-  "description": "Do Zero ao Profissional: Autenticação com React / TypeScript e Jest",
+  "name": "Authentication with React / TypeScript and Jest",
+  "short_name": "Authentication with React / TypeScript and Jest",
+  "description": "Zero to Professional: Authentication with React / TypeScript and Jest",
   "theme_color": "#f59e0b",
   "background_color": "#f59e0b",
   "display": "standalone",
@@ -9,7 +9,7 @@
   "scope": "/",
   "start_url": "/",
   "splash_screen": {
-    "title": "Do Zero ao Profissional: Autenticação com React / TypeScript e Jest",
+    "title": "Zero to Professional: Authentication with React / TypeScript and Jest",
     "background_color": "#f59e0b",
     "image": {
       "src": "/android-icon-512x512.png",

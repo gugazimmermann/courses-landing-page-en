@@ -1,17 +1,16 @@
 const TITLE =
-  "Do Zero ao Profissional: Autenticação com React / TypeScript e Jest";
-const DESCRIPTION =  "Aprenda do zero a construir aplicações em React. Este ebook não é apenas um tutorial de programação, é uma jornada em todos os aspectos como um profissional. Aprenda React utilizando TypeScript, ferramentas de controle de qualidade, boas práticas, entendendo como funciona o dia a dia em um ambiente de desenvolvimento com Agile, e muitas formas de testes utilizando Jest. Este ebook é essencial para quem quer iniciar uma carreira internacional como desenvolvedor.";
-const URL = "https://zero-ao-profissional.com.br";
+  "Zero to Professional: Authentication with React / TypeScript and Jest";
+const DESCRIPTION =  "Learn React using TypeScript, quality control tools, best practices, understanding the day-to-day in an Agile development environment, and many forms of testing using Jest.";
+const URL = "https://www.zero-to-professional.com";
 
 const sharedMetadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords: [
-    "Autenticação",
+    "Authentication",
     "React",
     "TypeScript",
     "Jest",
-    "Teste Unitário",
     "Unit Test",
     "Development",
     "Developer",
@@ -24,16 +23,13 @@ const sharedMetadata = {
     "Learning",
     "Tutorial",
     "Auth",
-    "Authentication",
     "ESLint",
     "Prettier",
     "Agile",
     "Scrum",
-    "Desenvolimento",
-    "Programação",
     "Ebook",
     "E-book",
-    "Curso",
+    "Course",
   ],
   alternates: {
     canonical: URL,
@@ -50,8 +46,8 @@ const sharedMetadata = {
   openGraph: {
     title: TITLE,
     description:
-      "Aprenda React utilizando TypeScript e muitas formas de testes utilizando Jest.",
-    locale: "pt_BR",
+      "Learn React using TypeScript and many forms of testing using Jest.",
+    locale: "us_US",
     type: "website",
     url: URL,
     siteName: TITLE,
