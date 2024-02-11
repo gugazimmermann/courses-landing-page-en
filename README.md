@@ -1,20 +1,17 @@
-# Landing Pages
+# Authentication with React / TypeScript and Jest
 
-This repository contains the code for the landing pages of the ebooks and courses 'From Zero to Professional' that I am creating.
+## Landing Page
 
-[https://www.zero-ao-profissional.com.br](https://www.zero-ao-profissional.com.br)
+This repository contains the code for the landing page for the ebook "**Authentication with React / TypeScript and Jest**" which I wrote.
+
+[https://www.zero-to-professional.com](https://www.zero-to-professional.com/)
 
 Landing page create using Next.js and AWS Amplify
 
 ## Course 1 - Authentication with React/TypeScript and Jest
 
-See the application running: [https://autenticacao.zero-ao-profissional.com.br/](https://autenticacao.zero-ao-profissional.com.br/)
+See the application running: [https://course-1-authentication.zero-to-professional.com](https://course-1-authentication.zero-to-professional.com/)
 
 Source Code: [https://github.com/gugazimmermann/course-1-authentication](https://github.com/gugazimmermann/course-1-authentication)
 
 Ebook: [https://hotmart.com/pt-br/marketplace/produtos/do-zero-ao-profissional-autenticacao-com-react-typescript-e-jest](https://hotmart.com/pt-br/marketplace/produtos/do-zero-ao-profissional-autenticacao-com-react-typescript-e-jest)
-
-
-![alternative text](https://www.url-da-image)
-![alternative text](/src/images/img.jpg)
-
