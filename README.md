@@ -13,3 +13,8 @@ See the application running: [https://autenticacao.zero-ao-profissional.com.br/]
 Source Code: [https://github.com/gugazimmermann/course-1-authentication](https://github.com/gugazimmermann/course-1-authentication)
 
 Ebook: [https://hotmart.com/pt-br/marketplace/produtos/do-zero-ao-profissional-autenticacao-com-react-typescript-e-jest](https://hotmart.com/pt-br/marketplace/produtos/do-zero-ao-profissional-autenticacao-com-react-typescript-e-jest)
+
+
+![alternative text](https://www.url-da-image)
+![alternative text](/src/images/img.jpg)
+

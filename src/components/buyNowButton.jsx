@@ -10,7 +10,7 @@ export default function BuyNowButton({ size }) {
         size === 'full' ? 'w-full' : size === 'half' ? 'w-1/2' : 'w-auto'
       } px-5 py-2 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-orange-600 rounded-lg hover:bg-orange-500 focus:outline-none focus:bg-orange-500`}
     >
-      Compre Agora
+      Buy Now on Amazon
     </Link>
   );
 }

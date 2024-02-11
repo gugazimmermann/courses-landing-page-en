@@ -29,11 +29,7 @@ export default function Hero() {
             understanding the day-to-day in an Agile development environment,
             and many forms of testing using Jest.
           </p>
-          <p className='text-center font-semibold mt-4 mb-2'>
-            Cupom:{' '}
-            <span className='text-orange-600 font-bold text-lg'>REACT25</span> -
-            de R$ 97,00 por R$ 72,75
-          </p>
+          <p className='text-center font-semibold mt-4 mb-2'>Just $9.99</p>
           <div className='flex justify-center'>
             <BuyNowButton size='auto' />
           </div>
