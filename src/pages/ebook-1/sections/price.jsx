@@ -22,7 +22,7 @@ export default function Price() {
           <div className='p-8 space-y-4 text-slate-100 uppercase text-center bg-orange-700 rounded-2xl shadow-md'>
             <h2 className='text-3xl font-bold pb-8'>$ 9,99</h2>
             <Link
-              href='https://pay.hotmart.com/Q90585601U'
+              href='https://www.amazon.com/dp/B0CVK5K94J'
               rel='noopener noreferrer'
               target='_blank'
               className='w-full px-4 py-2 tracking-wide text-orange-600 font-bold text-xl capitalize bg-slate-100 rounded-md'

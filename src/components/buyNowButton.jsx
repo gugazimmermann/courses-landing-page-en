@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function BuyNowButton({ size }) {
   return (
     <Link
-      href='https://pay.hotmart.com/Q90585601U'
+      href='https://www.amazon.com/dp/B0CVK5K94J'
       rel='noopener noreferrer'
       target='_blank'
       className={`${
